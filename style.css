@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",
+    Helvetica,Arial,sans-serif;
+    color: #000;
+    background-color: rgb(216, 201, 201);
+}
+
+.space_small {
+    margin: 20px 0 0 10%;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* Intro 
+.logo {
+    width: 100%;
+    height: 220px;
+    position: relative;
+}
+
+.logo_img img {
+    width: 100%;
+    height: 216px;
+}
+
+.logo_text {
+    position: absolute;
+    bottom: 33%;
+    left: 20%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo_text img {
+    width: 70px;
+    height: 70px;
+    
+}
+
+*/
+
+.content {
+    display: flex;
+}
+
+.left {
+    flex: 0.7;
+    background-color: #16ced3;
+    height: auto;
+}
+
+.right {
+    flex: 2;
+}
+
+.logo_text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.logo_text img {
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.right_up {
+    height: 220px;
+}
+
+.right_up img {
+    width: 100%;
+    height: 220px;
+}
+
+.left_up {
+    height: 100px;
+}
+
+.left_down {
+    border-top: 2px solid #000;
+    background-color: #fff;
+}
+
+.left_list {
+    
+}
+
+.down_text {
+    padding: 10px 0;
+    display: flex;
+    color: #000;
+    justify-content: space-between;
+}
+
+.down_text h3 {
+    margin-left: 20px;
+}
+
+.danh_muc {
+    background-color: #505050;
+    padding: 5px 0;
+    color: #fff;
+    display: flex;
+    margin-top: 0;
+    justify-content: left;
+}
+
+.danh_muc h3 {
+    margin-left: 10px;
+}
+
+.hv:hover {
+    background-color: #d7cbcb;
+    cursor: pointer;
+}
+
+ion-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.hv ion-icon {
+    margin-right: 20px;
+}
+.hv {
+    border-top: 2px solid;
+}
+.hv:last-child {
+    border-bottom: 2px solid;
+}
+
+.right_down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.r_down {
+    width: 24.5%;
+    position: relative;
+    height: 268px;
+}
+
+.r_down img {
+    width: 100%;
+    height: 268px;
+    cursor: pointer;
+    border: 3px solid grey;
+}
+
+.r_down:hover .hide {
+    display: block;
+}
+
+.hide {
+    position: absolute;
+    left: 0;
+    display: none;
+    top: 0;
+}
+
+/* Footter */
+#footter {
+    /* background: #dfd7d7; */
+    height: 170px;
+}
+.footter {
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.footter p {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footter ul li{
+   padding: 7px 0;
+}
+.footter img {
+    height: 45px;
+}
+.footter_logo {
+    display: flex;
+}
+.footter_logo h3 {
+    margin-left: 10px;
+}
+.footter ion-icon {
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.footter ion-icon:hover ,
+.footter p:hover {
+    opacity: 0.7;
+}
