@@ -8,7 +8,6 @@ body {
     font-family: Segoe UI,SegoeUI,"Helvetica Neue",
     Helvetica,Arial,sans-serif;
     color: #000;
-    background-color: rgb(216, 201, 201);
 }
 
 .space_small {
@@ -67,7 +66,7 @@ ul li {
     display: flex;
     align-items: center;
     color: #fff;
-    letter-spacing: 3px;
+    
 }
 
 .logo_text img {
@@ -150,7 +149,7 @@ ion-icon {
 }
 
 .r_down {
-    width: 24.5%;
+    width: 50%;
     position: relative;
     height: 268px;
 }
@@ -158,25 +157,82 @@ ion-icon {
 .r_down img {
     width: 100%;
     height: 268px;
-    cursor: pointer;
-    border: 3px solid grey;
+    border: 1px solid white;
+    border-bottom: none;
 }
 
-.r_down:hover .hide {
-    display: block;
+/* Intro */
+.intro {
+    margin-top: 1px;
+    background-color: #e3debd;
+    padding-bottom: 20px;
 }
 
-.hide {
-    position: absolute;
-    left: 0;
-    display: none;
-    top: 0;
+.intro_up {
+    background-color: red;
+    height: 50px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.title {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0 25%;
+    text-align: center;
+    border: 1px solid;
+}
+
+.intro_down {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro_left {
+    width: 49%;
+}
+
+.intro_text {
+    background: #000;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px red;
+    color: white;
+    margin: 5px 20%;
+    padding: 2px;
+}
+
+.intro_text h3{
+    text-align: center;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+.thai {
+    border-radius: 20px;
+    background-color: #f5f0f0;
+    box-shadow: 0.5px 0.7px 4px;
+}
+
+.intro_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.intro_img img {
+    width: 30%;
+    height: 200px;
+    margin: 20px;
 }
 
 /* Footter */
 #footter {
     /* background: #dfd7d7; */
     height: 170px;
+    background-color: rgb(216, 201, 201);
 }
 .footter {
     display: flex;
@@ -199,7 +255,8 @@ ion-icon {
     display: flex;
 }
 .footter_logo h3 {
-    margin-left: 10px;
+    margin-left: 5px;
+    line-height: 1.2;
 }
 .footter ion-icon {
     margin-left: 7px;
@@ -208,5 +265,7 @@ ion-icon {
 
 .footter ion-icon:hover ,
 .footter p:hover {
-    opacity: 0.7;
+    color: red;
+    
+    transition-duration: 0.2s;
 }
